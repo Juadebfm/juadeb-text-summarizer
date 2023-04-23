@@ -1,10 +1,15 @@
-import { logo } from "../assets";
+import { frame } from "../assets";
 
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
-        <img src={logo} alt="Logo" className="w-28 object-contain" />
+        <div className="flex items-center justify-center gap-2">
+          <img src={frame} alt="Logo" className="w-10 object-contain" />
+          <span className="font-satoshi self-end font-semibold desc mb-[0.40rem]">
+            JUAD TEXT SUMZ
+          </span>
+        </div>
         <button
           type="button"
           onClick={() =>
